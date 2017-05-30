@@ -1,4 +1,5 @@
 # $ pip install requirements.txt
+# $ python -m flask run
 
 from flask import Flask, render_template
 from flask_appconfig import AppConfig
