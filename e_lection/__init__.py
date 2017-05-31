@@ -1,14 +1,7 @@
 # $ pip install --upgrade -r requirements.txt
 # $ python -m flask run
 
-from flask import Flask, render_template
-from flask_appconfig import AppConfig
-
+from flask import Flask
 app = Flask(__name__)
-AppConfig(app)
-
 app.config['TEMPLATES_AUTO_RELOAD'] = True
-
-@app.route('/')
-def index():
-    return render_template('index.html')
+import e_lection.views
