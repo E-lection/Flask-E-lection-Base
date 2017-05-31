@@ -1,4 +1,4 @@
-# $ pip install requirements.txt
+# $ pip install --upgrade -r requirements.txt
 # $ python -m flask run
 
 from flask import Flask, render_template
